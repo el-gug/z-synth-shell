@@ -170,6 +170,9 @@ installScript()
 			printInfo "Installing as $script"
 			"${dir}/synth-shell/synth-shell-prompt/setup.sh" "$script" "$CONFIG_DIR"
 
+		elif [ "$script_name" == "synth-shell-z-dev" ]; then
+			printInfo "Installing as $script"
+			"${dir}/synth-shell/synth-shell-z-dev/setup.sh" "$script" "$CONFIG_DIR"
 
 		else
 			## ADD CONTENT TO SCRIPT FILE
@@ -411,6 +414,7 @@ installer()
 		better-ls
 		alias
 		better-history
+		synth-shell-z-dev
 		"
 
 	if [ "$#" -eq 0 ]; then
