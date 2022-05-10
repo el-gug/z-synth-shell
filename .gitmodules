@@ -1,6 +1,6 @@
 [submodule "bash-tools"]
 	path = bash-tools
-	url = https://github.com/andresgongora/bash-tools.git
+	url = https://github.com/el-gug/z-bash-tools.git
 [submodule "synth-shell/synth-shell-greeter"]
 	path = synth-shell/synth-shell-greeter
 	url = https://github.com/el-gug/z-synth-shell-greeter.git
