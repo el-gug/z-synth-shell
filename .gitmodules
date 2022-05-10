@@ -10,6 +10,6 @@
 	url = https://github.com/el-gug/z-synth-shell-prompt.git
 	branch = main
 [submodule "synth-shell/synth-shell-z-dev"]
-	path = synth-shell/synth-shell-prompt
+	path = synth-shell/synth-shell-z-dev
 	url = https://github.com/el-gug/z-synth-shell-z-dev.git
 	branch = main
