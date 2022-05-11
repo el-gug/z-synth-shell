@@ -412,7 +412,6 @@ installer()
 		synth-shell-greeter
 		synth-shell-prompt
 		synth-shell-z-dev
-		better-ls
 		alias
 		better-history
 		"

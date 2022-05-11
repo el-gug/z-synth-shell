@@ -4,6 +4,10 @@
 **synth-shell**  improves your terminal experience and productivity through a 
 combination of small bash scripts.
 
+- **Zerynth additions**:
+  - Automatically print connected devices.
+  - Prints UID and Ports on a table.
+  - Also Prints zerynth logo and setup colors on zerynth palette.
 
 - **System status report**:
   - Automatically printed in new terminal sessions (local, SSH, ...).
@@ -17,9 +21,7 @@ combination of small bash scripts.
   - Git statuses (requires pull/push, is dirty, etc.) if inside a directory that
     is part of a git repository.
   - Better separation between user input and command outputs.
-
-- **better ls**: an `ls -la` on steroids alternative.
-  
+ 
 - **alias**: add colors and a nicer behaviour to basic commands.
   - `grep`.
   - `pacman`.
